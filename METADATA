@@ -1,0 +1,17 @@
+name: "memchr"
+description:
+    "Safe interface to memchr."
+
+third_party {
+  url {
+    type: HOMEPAGE
+    value: "https://crates.io/crates/memchr"
+  }
+  url {
+    type: GIT
+    value: "https://github.com/BurntSushi/rust-memchr"
+  }
+  version: "2.3.3"
+  last_upgrade_date { year: 2020 month: 3 day: 17 }
+  license_type: NOTICE
+}
