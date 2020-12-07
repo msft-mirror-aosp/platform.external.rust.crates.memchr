@@ -1,0 +1,13 @@
+diff --git a/Android.bp b/Android.bp
+index f2b24d3..d0e40c9 100644
+--- a/Android.bp
++++ b/Android.bp
+@@ -16,4 +16,8 @@ rust_library {
+         "--cfg memchr_runtime_sse2",
+         "--cfg memchr_runtime_sse42",
+     ],
++    apex_available: [
++        "//apex_available:platform",
++        "com.android.virt",
++    ],
+ }
