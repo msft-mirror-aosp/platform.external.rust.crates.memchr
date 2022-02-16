@@ -3,10 +3,11 @@
 
 #![allow(dead_code)]
 
-use libc::{c_int, c_void, size_t};
+extern crate libc;
+
+use self::libc::{c_int, c_void, size_t};
 
 pub fn memchr(needle: u8, haystack: &[u8]) -> Option<usize> {
-    // SAFETY: This is safe to call since all pointers are valid.
     let p = unsafe {
         libc::memchr(
             haystack.as_ptr() as *const c_void,
@@ -21,14 +22,13 @@ pub fn memchr(needle: u8, haystack: &[u8]) -> Option<usize> {
     }
 }
 
-// memrchr is a GNU extension. We know it's available on Linux at least.
+// memrchr is a GNU extension. We know it's available on Linux, so start there.
 #[cfg(target_os = "linux")]
 pub fn memrchr(needle: u8, haystack: &[u8]) -> Option<usize> {
     // GNU's memrchr() will - unlike memchr() - error if haystack is empty.
     if haystack.is_empty() {
         return None;
     }
-    // SAFETY: This is safe to call since all pointers are valid.
     let p = unsafe {
         libc::memrchr(
             haystack.as_ptr() as *const c_void,
