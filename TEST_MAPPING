@@ -47,6 +47,41 @@
       "path": "external/rust/crates/unicode-xid"
     }
   ],
+  "postsubmit": [
+    {
+      "name": "ZipFuseTest"
+    },
+    {
+      "name": "authfs_device_test_src_lib"
+    },
+    {
+      "name": "doh_unit_test"
+    },
+    {
+      "name": "keystore2_legacy_blobs_test"
+    },
+    {
+      "name": "keystore2_test"
+    },
+    {
+      "name": "legacykeystore_test"
+    },
+    {
+      "name": "libapkverify.integration_test"
+    },
+    {
+      "name": "libapkverify.test"
+    },
+    {
+      "name": "microdroid_manager_test"
+    },
+    {
+      "name": "rustBinderTest"
+    },
+    {
+      "name": "virtualizationservice_device_test"
+    }
+  ],
   "presubmit": [
     {
       "name": "ZipFuseTest"
@@ -56,6 +91,9 @@
     },
     {
       "name": "doh_unit_test"
+    },
+    {
+      "name": "keystore2_legacy_blobs_test"
     },
     {
       "name": "keystore2_test"
@@ -88,6 +126,9 @@
     },
     {
       "name": "doh_unit_test"
+    },
+    {
+      "name": "keystore2_legacy_blobs_test"
     },
     {
       "name": "keystore2_test"
