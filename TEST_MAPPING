@@ -11,6 +11,9 @@
       "path": "external/rust/crates/base64"
     },
     {
+      "path": "external/rust/crates/clap"
+    },
+    {
       "path": "external/rust/crates/futures-util"
     },
     {
@@ -47,46 +50,14 @@
       "path": "external/rust/crates/unicode-xid"
     }
   ],
-  "postsubmit": [
-    {
-      "name": "ZipFuseTest"
-    },
-    {
-      "name": "authfs_device_test_src_lib"
-    },
-    {
-      "name": "doh_unit_test"
-    },
-    {
-      "name": "keystore2_legacy_blobs_test"
-    },
-    {
-      "name": "keystore2_test"
-    },
-    {
-      "name": "legacykeystore_test"
-    },
-    {
-      "name": "libapkverify.integration_test"
-    },
-    {
-      "name": "libapkverify.test"
-    },
-    {
-      "name": "microdroid_manager_test"
-    },
-    {
-      "name": "rustBinderTest"
-    },
-    {
-      "name": "virtualizationservice_device_test"
-    }
-  ],
   "presubmit": [
     {
       "name": "ZipFuseTest"
     },
     {
+      "name": "apkdmverity.test"
+    },
+    {
       "name": "authfs_device_test_src_lib"
     },
     {
@@ -106,6 +77,9 @@
     },
     {
       "name": "libapkverify.test"
+    },
+    {
+      "name": "libidsig.test"
     },
     {
       "name": "microdroid_manager_test"
@@ -122,6 +96,9 @@
       "name": "ZipFuseTest"
     },
     {
+      "name": "apkdmverity.test"
+    },
+    {
       "name": "authfs_device_test_src_lib"
     },
     {
@@ -141,6 +118,9 @@
     },
     {
       "name": "libapkverify.test"
+    },
+    {
+      "name": "libidsig.test"
     },
     {
       "name": "microdroid_manager_test"
