@@ -60,184 +60,45 @@
     },
     {
       "path": "external/rust/crates/unicode-xid"
-    }
-  ],
-  "presubmit": [
-    {
-      "name": "VtsAidlDiceDemoteTargetTest"
     },
     {
-      "name": "VtsAidlDiceTargetTest"
+      "path": "external/uwb/src"
     },
     {
-      "name": "ZipFuseTest"
+      "path": "packages/modules/DnsResolver"
     },
     {
-      "name": "apkdmverity.test"
+      "path": "packages/modules/Virtualization/apkdmverity"
     },
     {
-      "name": "authfs_device_test_src_lib"
+      "path": "packages/modules/Virtualization/authfs"
     },
     {
-      "name": "avmdtool.test"
+      "path": "packages/modules/Virtualization/avmd"
     },
     {
-      "name": "avmdtool_tests"
+      "path": "packages/modules/Virtualization/encryptedstore"
     },
     {
-      "name": "bluetooth_with_facades.test"
+      "path": "packages/modules/Virtualization/virtualizationmanager"
     },
     {
-      "name": "compos_verify.test"
+      "path": "packages/modules/Virtualization/vm"
     },
     {
-      "name": "composd_cmd.test"
+      "path": "packages/modules/Virtualization/zipfuse"
     },
     {
-      "name": "diced_test"
+      "path": "system/keymint/hal"
     },
     {
-      "name": "doh_unit_test"
+      "path": "system/security/diced"
     },
     {
-      "name": "encryptedstore.test"
+      "path": "system/security/keystore2"
     },
     {
-      "name": "fd_server.test"
-    },
-    {
-      "name": "keystore2_client_tests"
-    },
-    {
-      "name": "keystore2_legacy_blobs_test"
-    },
-    {
-      "name": "keystore2_test"
-    },
-    {
-      "name": "keystore2_vintf_test"
-    },
-    {
-      "name": "legacykeystore_test"
-    },
-    {
-      "name": "libkmr_hal_test"
-    },
-    {
-      "name": "libpvmfw_avb.integration_test"
-    },
-    {
-      "name": "libtombstoned_client_rust_test"
-    },
-    {
-      "name": "libuwb_adaptation_jni_tests"
-    },
-    {
-      "name": "libuwb_core_tests"
-    },
-    {
-      "name": "libuwb_uci_jni_rust_tests"
-    },
-    {
-      "name": "open_then_run.test"
-    },
-    {
-      "name": "rustBinderTest"
-    },
-    {
-      "name": "virtualizationmanager_device_test"
-    },
-    {
-      "name": "vm.test"
-    }
-  ],
-  "presubmit-rust": [
-    {
-      "name": "VtsAidlDiceDemoteTargetTest"
-    },
-    {
-      "name": "VtsAidlDiceTargetTest"
-    },
-    {
-      "name": "ZipFuseTest"
-    },
-    {
-      "name": "apkdmverity.test"
-    },
-    {
-      "name": "authfs_device_test_src_lib"
-    },
-    {
-      "name": "avmdtool.test"
-    },
-    {
-      "name": "avmdtool_tests"
-    },
-    {
-      "name": "bluetooth_with_facades.test"
-    },
-    {
-      "name": "compos_verify.test"
-    },
-    {
-      "name": "composd_cmd.test"
-    },
-    {
-      "name": "diced_test"
-    },
-    {
-      "name": "doh_unit_test"
-    },
-    {
-      "name": "encryptedstore.test"
-    },
-    {
-      "name": "fd_server.test"
-    },
-    {
-      "name": "keystore2_client_tests"
-    },
-    {
-      "name": "keystore2_legacy_blobs_test"
-    },
-    {
-      "name": "keystore2_test"
-    },
-    {
-      "name": "keystore2_vintf_test"
-    },
-    {
-      "name": "legacykeystore_test"
-    },
-    {
-      "name": "libkmr_hal_test"
-    },
-    {
-      "name": "libpvmfw_avb.integration_test"
-    },
-    {
-      "name": "libtombstoned_client_rust_test"
-    },
-    {
-      "name": "libuwb_adaptation_jni_tests"
-    },
-    {
-      "name": "libuwb_core_tests"
-    },
-    {
-      "name": "libuwb_uci_jni_rust_tests"
-    },
-    {
-      "name": "open_then_run.test"
-    },
-    {
-      "name": "rustBinderTest"
-    },
-    {
-      "name": "virtualizationmanager_device_test"
-    },
-    {
-      "name": "vm.test"
+      "path": "system/security/keystore2/legacykeystore"
     }
   ]
 }
