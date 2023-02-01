@@ -8,10 +8,22 @@
       "path": "external/rust/crates/anyhow"
     },
     {
+      "path": "external/rust/crates/async-stream"
+    },
+    {
       "path": "external/rust/crates/base64"
     },
     {
-      "path": "external/rust/crates/clap"
+      "path": "external/rust/crates/clap/2.33.3"
+    },
+    {
+      "path": "external/rust/crates/futures-channel"
+    },
+    {
+      "path": "external/rust/crates/futures-executor"
+    },
+    {
+      "path": "external/rust/crates/futures-test"
     },
     {
       "path": "external/rust/crates/futures-util"
@@ -48,88 +60,45 @@
     },
     {
       "path": "external/rust/crates/unicode-xid"
-    }
-  ],
-  "presubmit": [
-    {
-      "name": "ZipFuseTest"
     },
     {
-      "name": "apkdmverity.test"
+      "path": "external/uwb/src"
     },
     {
-      "name": "authfs_device_test_src_lib"
+      "path": "packages/modules/DnsResolver"
     },
     {
-      "name": "doh_unit_test"
+      "path": "packages/modules/Virtualization/apkdmverity"
     },
     {
-      "name": "keystore2_legacy_blobs_test"
+      "path": "packages/modules/Virtualization/authfs"
     },
     {
-      "name": "keystore2_test"
+      "path": "packages/modules/Virtualization/avmd"
     },
     {
-      "name": "legacykeystore_test"
+      "path": "packages/modules/Virtualization/encryptedstore"
     },
     {
-      "name": "libapkverify.integration_test"
+      "path": "packages/modules/Virtualization/virtualizationmanager"
     },
     {
-      "name": "libapkverify.test"
+      "path": "packages/modules/Virtualization/vm"
     },
     {
-      "name": "libidsig.test"
+      "path": "packages/modules/Virtualization/zipfuse"
     },
     {
-      "name": "microdroid_manager_test"
+      "path": "system/keymint/hal"
     },
     {
-      "name": "rustBinderTest"
+      "path": "system/security/diced"
     },
     {
-      "name": "virtualizationservice_device_test"
-    }
-  ],
-  "presubmit-rust": [
-    {
-      "name": "ZipFuseTest"
+      "path": "system/security/keystore2"
     },
     {
-      "name": "apkdmverity.test"
-    },
-    {
-      "name": "authfs_device_test_src_lib"
-    },
-    {
-      "name": "doh_unit_test"
-    },
-    {
-      "name": "keystore2_legacy_blobs_test"
-    },
-    {
-      "name": "keystore2_test"
-    },
-    {
-      "name": "legacykeystore_test"
-    },
-    {
-      "name": "libapkverify.integration_test"
-    },
-    {
-      "name": "libapkverify.test"
-    },
-    {
-      "name": "libidsig.test"
-    },
-    {
-      "name": "microdroid_manager_test"
-    },
-    {
-      "name": "rustBinderTest"
-    },
-    {
-      "name": "virtualizationservice_device_test"
+      "path": "system/security/keystore2/legacykeystore"
     }
   ]
 }
