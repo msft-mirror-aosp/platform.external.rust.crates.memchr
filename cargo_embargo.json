@@ -1,5 +1,5 @@
 {
-  "apex-available": [
+  "apex_available": [
     "//apex_available:platform",
     "com.android.btservices",
     "com.android.compos",
@@ -7,9 +7,5 @@
     "com.android.uwb",
     "com.android.virt"
   ],
-  "dependencies": true,
-  "device": true,
-  "min-sdk-version": "29",
-  "vendor-available": true,
-  "run": true
+  "min_sdk_version": "29"
 }
