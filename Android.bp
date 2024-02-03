@@ -43,18 +43,13 @@ rust_library {
     host_supported: true,
     crate_name: "memchr",
     cargo_env_compat: true,
-    cargo_pkg_version: "2.4.1",
+    cargo_pkg_version: "2.7.1",
     srcs: ["src/lib.rs"],
-    edition: "2018",
+    edition: "2021",
     features: [
+        "alloc",
         "default",
         "std",
-    ],
-    cfgs: [
-        "memchr_runtime_avx",
-        "memchr_runtime_simd",
-        "memchr_runtime_sse2",
-        "memchr_runtime_sse42",
     ],
     apex_available: [
         "//apex_available:platform",
